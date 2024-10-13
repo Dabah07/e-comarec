@@ -1,6 +1,6 @@
-/* styles.css */
 
-/* إعدادات عامة */
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
 }
 
-/* شريط التنقل */
+
 header {
     background-color: #333;
     color: white;
@@ -39,7 +39,7 @@ nav ul li a {
     text-align: center;
 }
 
-/* قسم المنتجات */
+
 #products {
     padding: 20px;
 }
@@ -51,7 +51,7 @@ nav ul li a {
     text-align: center;
     margin: 15px;
     display: inline-block;
-    width: calc(25% - 30px); /* أربع بطاقات في الصف */
+    width: calc(25% - 30px); 
 }
 
 .product-card img {
@@ -63,16 +63,16 @@ nav ul li a {
     margin: 10px 0;
 }
 
-/* تفاعل مع الشاشات الصغيرة */
+
 @media (max-width: 768px) {
     .product-card {
-        width: calc(50% - 30px); /* بطاقتين في الصف */
+        width: calc(50% - 30px); 
     }
 }
 
 @media (max-width: 480px) {
     .product-card {
-        width: 100%; /* بطاقة واحدة في الصف */
+        width: 100%; 
     }
 
     nav ul li {
@@ -81,7 +81,7 @@ nav ul li a {
     }
 }
 
-/* تذييل */
+
 footer {
     text-align: center;
     padding: 20px;
